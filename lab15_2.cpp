@@ -44,7 +44,7 @@ void findColSum(const double *dPtr,double *result,int N,int M){
 			sum =0;
 			dPtr-=41;
 		}else{
-			dPtr+=M;
+			dPtr+=M ;
 		}
 	}
 	

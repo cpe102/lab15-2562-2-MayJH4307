@@ -41,7 +41,7 @@ void findRowSum(const double *dPtr,double *result,int N,int M){
 			sum += *dPtr;
 			dPtr++;
 		}
-		*result = sum;
+		*result = sum ;
 		result++;
 		sum =0;
 	}
